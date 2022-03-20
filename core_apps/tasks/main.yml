@@ -1,0 +1,4 @@
+---
+
+- name: Core system package install
+  apt: name={{ required_packages }} state=present update_cache=no
